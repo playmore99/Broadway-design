@@ -6,19 +6,26 @@
     <link href="resources/style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+
     <div id="page">
+
       <div class="background">
         <h1>Broadway Design</h1>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
       </div>
+
       <div class"content">
-        <h2>Our Process</h2>
+
+        <div id="about">
+          <h2>Our Process</h2>
+        </div>
+
         <img src="resources/images/identify.svg" />
         <h3>Identify</h3>
         <p>We focus on the most important details</p>
@@ -26,29 +33,33 @@
         <h3>Understand</h3>
         <p>We study our project inside and out</p>
         <img src="resources/images/execute.svg" />
-        <h3>Execute</h3>
+        <h3 id="work">Execute</h3>
         <p>We put everything we have into our work</p>
       </div>
+
       <div id="middle">
         <h3>Designed in New York</h3>
       </div>
+
       <div class="content">
         <h3>Portfolio</h3>
         <p>Coming Soon</p>
-        <h3>Team</h3>
+        <h3 id="team">Team</h3>
         <p>We're Hiring!</p>
         <h3>Contact</h3>
         <p>Phone: (555)-555-5555</p>
         <p>E-mail: test@example.com</p>
         <p>Twitter: @test</p>
       </div>
+
       <div id="footer">
-        <p>&copy; Broadway 2016 <a href="" class="foot">Home</a>
-        <a href="" class="foot">About</a>
-        <a href="" class="foot">Work</a>
-        <a href="" class="foot">Team</a>
-        <a href="" class="foot">Contact</a></p>
+        <p id="contact">&copy; Broadway 2016 <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a></p>
       </div>
+
     </div>
   </body>
 </html>
